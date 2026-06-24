@@ -44,7 +44,7 @@ Online Examination System/
 
 4. How to Run
 - Download or clone the repository.
-- Open index.html in a web browser.
+- Open login/index.html in a web browser.
 - Start the examination.
 5. Future Enhancements
 . User authentication
