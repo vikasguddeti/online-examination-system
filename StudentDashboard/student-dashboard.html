@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h2>Student Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+</div>
+
+<div class="container">
+    <h3 id="welcome"></h3>
+
+    <div class="exam-card">
+        <h4>Java Basics Exam</h4>
+        <p>Duration: 2 Minutes</p>
+        <button onclick="startExam('Java Basics', 120)">Start Exam</button>
+    </div>
+
+    <div class="exam-card">
+        <h4>Aptitude Test</h4>
+        <p>Duration: 5 Minutes</p>
+        <button onclick="startExam('Aptitude',300)">Start Exam</button>
+    </div>
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>

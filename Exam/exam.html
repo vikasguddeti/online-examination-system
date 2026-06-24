@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam Page</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+
+<div class="header">
+    <h2>Online Exam</h2>
+    <div id="timer">Time Left: 02:00</div>
+</div>
+
+<div class="container">
+    <h3 id="question">Question will appear here</h3>
+
+    <div class="options">
+        <label><input type="radio" name="option" value="A"> <span id="optA"></span></label>
+        <label><input type="radio" name="option" value="B"> <span id="optB"></span></label>
+        <label><input type="radio" name="option" value="C"> <span id="optC"></span></label>
+        <label><input type="radio" name="option" value="D"> <span id="optD"></span></label>
+    </div>
+
+    <div class="buttons">
+        <button onclick="prevQuestion()">Prev</button>
+        <button onclick="nextQuestion()">Next</button>
+        <button onclick="submitExam()">Submit</button>
+    </div>
+</div>
+
+<script src="exam.js"></script>
+</body>
+</html>
